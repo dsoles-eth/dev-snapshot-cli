@@ -1,0 +1,8 @@
+__future__
+click
+cryptography
+platform
+psutil
+secrets
+toml
+tomllib

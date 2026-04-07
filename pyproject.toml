@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "dev-snapshot-cli"
+version = "0.1.0"
+description = "A CLI utility that snapshots local development environments to ensure instant debugging reproducibility across teams."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["python", "click", "psutil", "cryptography", "toml"]
+dependencies = ["__future__", "click", "cryptography", "platform", "psutil", "secrets", "toml", "tomllib"]
+
+[project.urls]
+Homepage = "https://github.com/{GITHUB_USERNAME}/dev-snapshot-cli"
